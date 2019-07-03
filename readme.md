@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
       --primary: #09F;
       --text: #CCC;
       --background: #222;
-      --background-elevated: #2a2a2a;
-   } 
+      --background-elevated: #282828;
+   }
 
    a[aria-label^="NAME_OF_CHANNEL_OR_DIRECT_CONVO_TO_STYLE"]
    {
