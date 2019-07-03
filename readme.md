@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://raw.githubusercontent.com/Nockiro/slack-black-theme/master/custom.css';
+   const cssPath = 'https://raw.githubusercontent.com/m1foley/slack-black-theme/master/custom.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function() {
       /* Modify these to change your theme colors: */
       --primary: #09F;
       --text: #CCC;
-      --background: #080808;
-      --background-elevated: #222;
+      --background: #222;
+      --background-elevated: #2c2c2c;
    } 
 
    a[aria-label^="NAME_OF_CHANNEL_OR_DIRECT_CONVO_TO_STYLE"]
@@ -92,7 +92,7 @@ NB: You'll have to do this every time Slack updates.
 
 Here's some example color variations you might like.
 
-## Default
+## Default (from Nockiro)
 ![Default](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
 ```
 --primary: #09F;
